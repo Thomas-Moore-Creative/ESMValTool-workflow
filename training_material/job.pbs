@@ -1,9 +1,10 @@
 #!/bin/bash -l
 #PBS -S /bin/bash
-#PBS -P iq82
-#PBS -l storage=gdata/xp65+gdata/fs38+gdata/oi10+gdata/ct11+scratch/tm70
+#PBS -P es60
+#PBS -l storage=gdata/xp65+gdata/fs38+gdata/oi10+gdata/ct11
 #PBS -l wd
 #PBS -q copyq
 #PBS -l walltime=4:00:00
-#PBS -l mem=16GB
+#PBS -l mem=64GB
 #PBS -l ncpus=1
+#PBS -l jobfs=100GB
