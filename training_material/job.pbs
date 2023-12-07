@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #PBS -S /bin/bash
 #PBS -P es60
-#PBS -l storage=gdata/xp65+gdata/fs38+gdata/oi10+gdata/ct11
+#PBS -l storage=gdata/xp65+gdata/fs38+gdata/oi10+gdata/ct11+gdata/es60
 #PBS -l wd
 #PBS -q copyq
 #PBS -l walltime=4:00:00
